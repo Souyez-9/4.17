@@ -1,0 +1,8 @@
+body {background-color: #F5F5F5;}
+h1 {background-color: #9BC1C2; 
+color: #3f2860;}
+nav {font-weight: bold;}
+footer {background-color: #9BC1C2;}
+#wrapper { margin-left: auto;
+    margin-right: auto;
+    width: 80%; }
