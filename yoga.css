@@ -1,15 +1,25 @@
-body {background-color: #3f2860;
+main { padding-left: 2em;
+       padding-right: 2em;
+}
+body { background-color: #3f2860;
 }
 header { background-color: #9BC1C2;
-    text-align: center;
-    
+         background-image: url(lilyheader.jpg);
+         background-position: right;
+         background-repeat: no-repeat;
+         height: 150px;
 }
-h1 {background-color: #9BC1C2; 
-color: #3f2860;
+h1 { padding-top: 50px;
+     padding-left: 2em;
 }
-nav {font-weight: bold;
+nav { font-weight: bold;
+      text-align: center;
+      padding: 1em;
 }
-footer {background-color: #9BC1C2;
+nav a { text-decoration: none;
+}
+footer { background-color: #9BC1C2;
+         padding: 1em;
 }
 #wrapper { margin-left: auto;
     margin-right: auto;
@@ -17,3 +27,8 @@ footer {background-color: #9BC1C2;
     background-color: #f5f5f5;
     min-width: 1000px;
     max-width: 1280px;}
+img { padding-left: 1em;
+      padding-right: 1em;
+}
+#hero { text-align: center;
+}
